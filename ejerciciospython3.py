@@ -61,9 +61,9 @@
 #frase = input("ingrese una palabra o frase: ")
 
 #if es_palindromo(frase):
-#    print("es capicua")
+#    print("es palindromo")
 #else:
-#    print("no es capicua")
+#    print("no es palindromo")
 
 #5. Lambda para sumar, potencia
 
