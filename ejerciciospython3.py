@@ -84,3 +84,50 @@
 #print("lista multiplicada:", resultado)
 
 #7. Integrador: Crear programa que permita al usuario agregar tareas con descripción, fecha límite y prioridad, así como mostrar la lista de tareas. Este menú se repite hasta que el usuario elige salir."
+#def agregar_tarea(tareas):
+#    descripcion = input("ingrese la descripcion de la tarea: ")
+#    fecha = input("ingrese la fecha limite: ")
+#    prioridad = input("ingrese la prioridad (alta, media, baja): ")
+    
+#    tarea = {
+#        "descripcion": descripcion,
+#        "fecha": fecha,
+#        "prioridad": prioridad
+#    }
+    
+#    tareas.append(tarea)
+#    print("tarea agregada correctamente")
+
+
+#def mostrar_tareas(tareas):
+#    if len(tareas) == 0:
+#        print("no hay tareas cargadas")
+#    else:
+#        print("lista de tareas:")
+#        for i, tarea in enumerate(tareas, start=1):
+#            print("tarea", i)
+#            for k, v in tarea.items():
+#                print(k, ":", v)
+
+
+#def menu():
+#    tareas = []  
+#    while True:
+#        print("1. agregar tarea")
+#        print("2. mostrar tareas")
+#        print("3. salir")
+        
+#        opcion = input("elija una opcion: ")
+        
+#        if opcion == "1":
+#            agregar_tarea(tareas)
+#        elif opcion == "2":
+#            mostrar_tareas(tareas)
+#        elif opcion == "3":
+#            print("saliendo del programa")
+#            break
+#        else:
+#            print("opcion invalida")
+
+
+#menu()
